@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Primary */
+    --main-bg:hsl(217, 28%, 15%);
+    --intro-and-email-bg:hsl(218, 28%, 13%);
+    --footer-bg:hsl(216, 53%, 9%);
+    --testimonials-bg:hsl(219, 30%, 18%);
+
+    /* Accent */
+    --gradient-cyan:hsl(176, 68%, 64%);
+    --gradient-blue:hsl(198, 60%, 50%);
+    --error-msg:hsl(0, 100%, 63%);
+
+    /* Neutral */
+    --white:hsl(0, 0%, 100%);
+
+}
+
+body {
+    font-size: 0.875rem;
+    font-family: 'Open Sans', sans-serif;
+    /* For headings, nav & call to action */
+    /* font-family: 'Raleway', sans-serif; */
+}
