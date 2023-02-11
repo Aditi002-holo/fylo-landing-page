@@ -18,12 +18,102 @@
 
     /* Neutral */
     --white:hsl(0, 0%, 100%);
-
 }
 
 body {
     font-size: 0.875rem;
     font-family: 'Open Sans', sans-serif;
-    /* For headings, nav & call to action */
-    /* font-family: 'Raleway', sans-serif; */
+
+    background: var(--main-bg);
+    color: var(--white)
 }
+
+/* Common Styles */
+
+h1, h2, h3, h4, h5, h6, button, li {
+    font-family: 'Raleway', sans-serif;
+}
+
+button {
+    padding: 1em 6em;
+    background-color: var(--gradient-blue);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: inherit;
+    margin: 2.5em;
+    font-weight: 700;
+}
+
+/* Later */
+
+/* button:hover,
+button:focus {
+
+} */
+
+
+/* Common Parent Container Styles */
+
+.header, .main, .footer {
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+/* Header Section */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 2em;
+}
+
+.logo {
+    width: 6em;
+}
+
+/* Header - Navigation bar */
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    column-gap: 1.5em;
+    font-size: 0.75rem;
+}
+
+
+/* Hero Section */
+
+.hero-section {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 4em;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.hero-title, .hero-content {
+    line-height: 1.5;
+}
+
+.hero-title {
+    font-size: 1.5rem;
+    margin: 1em 0;
+}
+
+.hero-content {
+    width: 98%;
+}
+
+
+
+
+
+
+
