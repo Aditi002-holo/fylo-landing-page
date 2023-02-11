@@ -30,7 +30,7 @@ body {
 
 /* Common Styles */
 
-h1, h2, h3, h4, h5, h6, button, li {
+h1, h2, h3, button, li {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -43,6 +43,7 @@ button {
     color: inherit;
     margin: 2.5em;
     font-weight: 700;
+    cursor: pointer;
 }
 
 /* Later */
@@ -172,7 +173,10 @@ button:focus {
     font-size: 0.8rem;
     padding: 0 0 0.4em;
     border-bottom: 1px solid var(--gradient-cyan);
+    cursor: pointer;
 }
+
+/* Testimonial Section */
 
 
 
