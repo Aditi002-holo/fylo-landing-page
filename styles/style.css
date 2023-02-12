@@ -39,7 +39,8 @@ h1, h2, h3, button, li {
 
 
 button {
-    padding: 1em 6em;
+    width: 80%;
+    padding: 1em 2em;
     background-color: var(--gradient-blue);
     border: none;
     outline: none;
@@ -210,6 +211,35 @@ button:focus {
 
 .person-designation {
     font-weight: 400;
+}
+
+/* CTA SECTION */
+
+.cta-section {
+    margin: 0 auto;
+    background: var(--main-bg);
+    text-align: center;
+    /* border: 1px solid #fff; */
+}
+
+.cta-content {
+    margin: 2em 0;
+}
+
+.input-email {
+    width: 80%;
+    padding: 1em 2em;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.cta-title {
+    font-size: 1.1rem;
+    margin: 2em 0 1em;
 }
 
 
