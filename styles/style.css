@@ -217,9 +217,10 @@ button:focus {
 
 .cta-section {
     margin: 0 auto;
+    padding: 8em 0 5em;
     background: var(--main-bg);
     text-align: center;
-    /* border: 1px solid #fff; */
+    border: 1px solid #fff;
 }
 
 .cta-content {
@@ -232,9 +233,14 @@ button:focus {
     border: none;
     outline: none;
     border-radius: 20px;
-    color: inherit;
+    font-family: inherit;
     font-weight: 700;
     cursor: pointer;
+}
+
+.input-email::placeholder {
+    opacity: 0.3;
+    font-size: 0.6rem;
 }
 
 .cta-title {
@@ -242,6 +248,73 @@ button:focus {
     margin: 2em 0 1em;
 }
 
+/* Footer Section */
+
+.footer {
+    padding: 4em 0;
+}
+
+/* Personal Details */
+
+.logo.footer {
+    width: 10em;
+}
+
+.detail {
+    display: flex;
+    column-gap: 2em;
+    margin-bottom: 2em;
+}
+
+.social-logo, .social-content {
+    align-self: flex-start;
+}
+
+.social-logo {
+    width: 1em;
+    padding-top: 0.3em;
+}
+
+.location-content {
+    line-height: 1.6;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+}
 
 
+/* Know Us List */
+
+.know-us {
+    padding: 3em 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+}
+
+.know-us-list {
+    list-style-type: none;
+}
+
+.know-us-item {
+    font-size: 0.92rem;
+    font-family: 'Open Sans', sans-serif;
+    margin: 1em 0;
+}
+
+/* Social Icons */
+
+.social {
+    text-align: center;
+}
+
+.social-logo {
+    font-size: 1rem;
+    border: 1px solid #fff;
+    padding: 0.3em;
+    border-radius: 50%;
+    margin: 0 0.3em;
+}
 
