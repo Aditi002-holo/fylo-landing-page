@@ -217,10 +217,9 @@ button:focus {
 
 .cta-section {
     margin: 0 auto;
-    padding: 8em 0 5em;
+    padding: 5em 0;
     background: var(--main-bg);
     text-align: center;
-    border: 1px solid #fff;
 }
 
 .cta-content {
@@ -252,6 +251,7 @@ button:focus {
 
 .footer {
     padding: 4em 0;
+
 }
 
 /* Personal Details */
@@ -310,7 +310,7 @@ button:focus {
     text-align: center;
 }
 
-.social-logo {
+.social-media-logo {
     font-size: 1rem;
     border: 1px solid #fff;
     padding: 0.3em;
@@ -318,3 +318,76 @@ button:focus {
     margin: 0 0.3em;
 }
 
+/* Containers */
+
+.footer-container {
+    background-color: var(--footer-bg);
+}
+
+/* MEDIA QUERIES */
+
+@media(min-width: 600px) {
+    body {
+        /* background-color: red; */
+    }
+
+    .hero-section {
+        max-width: 500px;
+    }
+
+    .hero-content {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .cta-btn {
+        width: 40%;
+    }
+
+    .feature-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 800px;
+        column-gap: 3em;
+        margin: 0 auto;
+        padding-bottom: 0;
+    }
+
+    .article {
+        width: 45%;
+    }
+
+    .feature-img {
+        /* border: 1px solid #fff; */
+        width: 20%;
+    }
+
+    .security-logo {
+        width: 15%;
+    }
+
+    .service-section {
+        display: flex;
+    }
+
+    .testimonial-section {
+        display: flex;
+        column-gap: 1.5em;
+    }
+
+    .open-quote {
+        align-self: flex-start;
+    }
+
+    .cta-section {
+        max-width: 600px;
+    }
+
+    .location {
+        max-width: 400px;
+    }
+
+    .social {
+        text-align: left;
+    }
+}
